@@ -1,0 +1,381 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?m551ny');
+  src:  url('fonts/icomoon.eot?m551ny#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?m551ny') format('truetype'),
+    url('fonts/icomoon.woff?m551ny') format('woff'),
+    url('fonts/icomoon.svg?m551ny#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-at:before {
+  content: "\e900";
+  position: absolute;
+  left:-2vw;
+  bottom: -0.1vw;
+}
+.icon-at:hover::after{
+  content: "";
+position: absolute;
+left: 0;
+bottom: -0.5vw;
+height: 2px;
+width: 100%;
+background-color:white;
+}
+.icon-phone:hover::after{
+  content: "";
+position: absolute;
+left: 0;
+bottom: -0.5vw;
+height: 2px;
+width: 65%;
+background-color:white;
+}
+.icon-skype:before {
+  content: "\e901";
+  position: absolute;
+  left:-2vw;
+  bottom: -0.1vw;
+}
+.icon-skype:hover::after{
+content: "";
+position: absolute;
+left: 0;
+bottom: -0.5vw;
+height: 2px;
+width: 100%;
+background-color:white;
+}
+.icon-key:before {
+  content: "\e902";
+  position: absolute;
+  font-size: 3vw;
+ 
+
+}
+.icon-key:hover {
+  content: "\e902";
+  transform: scale(1.1);
+}
+.icon-phone:before {
+  content: "\f095";
+  position: absolute;
+  left:-1.8vw;
+  bottom: -0.1vw;
+}
+.icon-facebook:before {
+  content: "\e903";
+  position: absolute;
+  font-size: 3vw;
+ 
+}
+.icon-facebook:hover {
+  content: "\e903";
+  transform: scale(1.1);
+}
+
+.icon-icq:before {
+  content: "\e904";
+  color: white;
+  position: absolute;
+  left:-2vw;
+  bottom: -0.1vw;
+}
+.icon-icq:hover::after{
+  content: "";
+position: absolute;
+left: 0;
+bottom: -0.5vw;
+height: 2px;
+width: 48%;
+background-color:white;
+}
+.icon-google:before {
+  content: "\e905";
+  position: absolute;
+  font-size: 3vw;
+ 
+}
+.icon-google:hover {
+  content: "\e905";
+  transform: scale(1.1);
+}
+.icon-twitter-with-circle:before {
+  content: "\e906";
+  position: absolute;
+  font-size: 3vw;
+ 
+}
+.icon-twitter-with-circle:hover {
+  content: "\e906";
+transform:scale(1.1);
+}
+.icon-youtube-with-circle:before {
+  content: "\e907";
+  position: absolute;
+  font-size: 3vw;
+ 
+}
+.icon-youtube-with-circle:hover{
+  content: "\e907";
+ transform: scale(1.1);
+}
+@media(max-width:991px){
+  .icon-at:before {
+    content: "\e900";
+    position: absolute;
+    left:-3vw;
+    bottom: -0.5vw;
+  }
+  .icon-skype:before {
+    content: "\e901";
+    position: absolute;
+    left:-3vw;
+    bottom: -0.5vw;
+  }
+  .icon-key:before {
+    content: "\e902";
+    position: relative;
+    bottom:-3vw;
+    font-size: 5vw;
+   
+  
+  }
+  .icon-phone:before {
+    content: "\f095";
+    position: absolute;
+    left:-3vw;
+    bottom: -0.5vw;
+  }
+  .icon-facebook:before {
+    content: "\e903";
+    position: relative;
+    bottom:-3vw;
+    font-size: 5vw;
+  }
+  .icon-icq:before {
+    content: "\e904";
+    color: white;
+    position: absolute;
+    left:-3vw;
+    bottom: -0.5vw;
+  }
+  .icon-google:before {
+    content: "\e905";
+    position: relative;
+    bottom:-3vw;
+    font-size: 5vw;
+   
+  }
+  .icon-twitter-with-circle:before {
+    content: "\e906";
+    position: relative;
+    
+    bottom:-3vw;
+    font-size: 5vw;
+   
+  }
+  .icon-youtube-with-circle:before {
+    content: "\e907";
+    position: relative;
+    bottom:-3vw;
+    font-size: 5vw;
+   
+  }
+}
+@media(max-width:767px){
+  
+    .icon-at:before {
+      content: "\e900";
+      position: absolute;
+      left:-7vw;
+      bottom: -0.5vw;
+    }
+    .icon-skype:before {
+      content: "\e901";
+      position: absolute;
+      left:-7vw;
+      bottom: -0.5vw;
+    }
+    .icon-key:before {
+      content: "\e902";
+      position: relative;
+      font-size: 10vw;
+     
+    
+    }
+    .icon-phone:before {
+      content: "\f095";
+      position: absolute;
+      left:-7vw;
+      bottom: -0.5vw;
+    }
+    .icon-facebook:before {
+      content: "\e903";
+      position: relative;
+      font-size: 10vw;
+     
+    }
+    .icon-icq:before {
+      content: "\e904";
+      color: white;
+      position: absolute;
+      left:-6vw;
+      bottom: -0.5vw;
+    }
+    .icon-google:before {
+      content: "\e905";
+      position: relative;
+      font-size: 10vw;
+     
+    }
+    .icon-twitter-with-circle:before {
+      content: "\e906";
+      position: relative;
+      font-size: 10vw;
+     margin-left: 5vw;
+     
+    }
+    .icon-youtube-with-circle:before {
+      content: "\e907";
+      position: relative;
+      font-size: 10vw;
+     
+    }
+}
+@media (max-width:575px){
+  .icon-at:before {
+    content: "\e900";
+    position: absolute;
+    left:-7vw;
+    bottom: -0.5vw;
+  }
+  .icon-skype:before {
+    content: "\e901";
+    position: absolute;
+    left:-7vw;
+    bottom: -0.5vw;
+  }
+  .icon-key:before {
+    content: "\e902";
+    position: relative;
+    font-size: 10vw;
+   
+  
+  }
+  .icon-phone:before {
+    content: "\f095";
+    position: absolute;
+    left:-7vw;
+    bottom: -0.5vw;
+  }
+  .icon-facebook:before {
+    content: "\e903";
+    position: relative;
+    font-size: 10vw;
+   
+  }
+  .icon-icq:before {
+    content: "\e904";
+    color: white;
+    position: absolute;
+    left:-7vw;
+    bottom: -0.5vw;
+  }
+  .icon-google:before {
+    content: "\e905";
+    position: relative;
+    font-size: 10vw;
+   
+  }
+  .icon-twitter-with-circle:before {
+    content: "\e906";
+    position: relative;
+    font-size: 10vw;
+   margin-left: 5vw;
+   
+  }
+  .icon-youtube-with-circle:before {
+    content: "\e907";
+    position: relative;
+    font-size: 10vw;
+   
+  }
+}
+@media(max-width:350px){
+  .icon-at:before {
+    content: "\e900";
+    position: absolute;
+    left:-7vw;
+    bottom: -0.5vw;
+  }
+  .icon-skype:before {
+    content: "\e901";
+    position: absolute;
+    left:-7vw;
+    bottom: -0.5vw;
+  }
+  .icon-key:before {
+    content: "\e902";
+    position: relative;
+    font-size: 10vw;
+   
+  
+  }
+  .icon-phone:before {
+    content: "\f095";
+    position: absolute;
+    left:-7vw;
+    bottom: -0.5vw;
+  }
+  .icon-facebook:before {
+    content: "\e903";
+    position: relative;
+    font-size: 10vw;
+   
+  }
+  .icon-icq:before {
+    content: "\e904";
+    color: white;
+    position: absolute;
+    left:vw;
+    bottom: -0.5vw;
+  }
+  .icon-google:before {
+    content: "\e905";
+    position: relative;
+    font-size: 10vw;
+   
+  }
+  .icon-twitter-with-circle:before {
+    content: "\e906";
+    position: relative;
+    font-size: 10vw;
+   margin-left: 5vw;
+   
+  }
+  .icon-youtube-with-circle:before {
+    content: "\e907";
+    position: relative;
+    font-size: 10vw;
+   
+  }
+}
